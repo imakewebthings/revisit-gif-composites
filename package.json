@@ -4,7 +4,8 @@
   "description": "Revisit services for node-gif-composites",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   "dependencies": {
     "data-uri-to-buffer": "0.0.3",
     "gif-composites": "^1.0.0",
+    "nodemon": "^1.2.1",
     "restify": "^2.8.2"
   }
 }
