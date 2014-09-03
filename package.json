@@ -1,0 +1,27 @@
+{
+  "name": "revisit-gif-composites",
+  "version": "0.0.0",
+  "description": "Revisit services for node-gif-composites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:imakewebthings/revisit-gif-composites.git"
+  },
+  "keywords": [
+    "revisit"
+  ],
+  "author": "Caleb Troughton <caleb@imakewebthings.com> (http://imakewebthings.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imakewebthings/revisit-gif-composites/issues"
+  },
+  "homepage": "https://github.com/imakewebthings/revisit-gif-composites",
+  "dependencies": {
+    "data-uri-to-buffer": "0.0.3",
+    "gif-composites": "0.0.1",
+    "restify": "^2.8.2"
+  }
+}
