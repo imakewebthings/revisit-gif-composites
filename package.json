@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git@github.com:imakewebthings/revisit-gif-composites.git"
   },
+  "engines": {
+    "node": "0.10.28"
+  },
   "keywords": [
     "revisit"
   ],
@@ -21,7 +24,7 @@
   "homepage": "https://github.com/imakewebthings/revisit-gif-composites",
   "dependencies": {
     "data-uri-to-buffer": "0.0.3",
-    "gif-composites": "0.0.1",
+    "gif-composites": "^1.0.0",
     "restify": "^2.8.2"
   }
 }
