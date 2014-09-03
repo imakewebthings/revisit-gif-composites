@@ -7,7 +7,6 @@ var transform = process.env.GIF_COMPOSITE_TRANSFORM || 'tracer'
 
 server.use(restify.acceptParser(server.acceptable))
 server.use(restify.bodyParser({
-  maxBodySize: 10000000,
   mapParams: false
 }))
 
